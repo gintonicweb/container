@@ -1,0 +1,25 @@
+{
+    "name": "gintonic/container",
+    "description": "Minimalistic PSR-11 container trait",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philippe Lafrance",
+            "email": "phil.laf@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gintonic\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gintonic\\Test\\": "tests"
+        }
+    }
+}
