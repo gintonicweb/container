@@ -13,7 +13,10 @@ trait ContainerTrait
         return $this->$id();
     }
 
-    /** @return bool */
+    /**
+     * @param string $id
+     * @return bool
+     */
     public function has($id)
     {
         return in_array($id, get_class_methods($this));
